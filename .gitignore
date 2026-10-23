@@ -8,3 +8,5 @@ logs/
 data/raw/
 *.sqlite
 .DS_Store
+
+*.egg-info/
