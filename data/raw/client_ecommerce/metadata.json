@@ -1,0 +1,7 @@
+{
+  "tenant_id": "client_ecommerce",
+  "tenant_name": "Sample E-commerce Client",
+  "source": "Synthetic repository based on Apache Airflow public examples",
+  "license": "Apache-2.0 for copied public examples; synthetic files created for DagVault",
+  "access_scope": "private"
+}
