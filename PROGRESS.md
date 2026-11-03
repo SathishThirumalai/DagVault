@@ -14,9 +14,12 @@ Commit after every class. Tag every Friday: `git tag week-N && git push origin w
 - [x] POST /chat calls an LLM and returns structured JSON
 - [x] Streaming, timeouts, retry and a fallback model
 - [x] Cost log + GET /usage
-- [ ] Docker Compose (API + Postgres/pgvector) runs
-- [ ] CI green, live link in README
-- [ ] Tag week-2 pushed
+- [x] Docker Compose (API + Postgres/pgvector) runs
+- [x] CI green (ruff + pytest). Live hosting/deployment is not required.
+- [ ] Live link in README — not required
+- [x] Tag week-2 pushed
+
+No live deployment is included for this checkpoint. The API is run locally with Docker Compose (API + Postgres/pgvector), `/ready` reports database status, readiness tests cover the unconfigured database case, and CI is lint + tests only.
 
 ## Week 3 (tag week-3 by Fri 6 Nov)
 - [ ] Parser keeps page numbers and headings
@@ -28,4 +31,4 @@ Commit after every class. Tag every Friday: `git tag week-N && git push origin w
 ## Daily log
 | Date | What I did today | Commit |
 |---|---|---|
-| | | |
+| 2026-11-03 | Docker Compose API + Postgres/pgvector, /ready, readiness tests, CI lint+tests | pending |

@@ -23,6 +23,19 @@ See [docs/QUESTIONS.md](docs/QUESTIONS.md).
 
 ## Run it
 
+Copy `.env.example` to `.env` for local configuration. LLM calls are optional for health and readiness checks.
+
+## Run with Docker
+
+Postgres with the pgvector extension starts alongside the API. Compose sets `DATABASE_URL` to `postgresql://app:app@db:5432/rag` so the API talks to the `db` service, not localhost.
+
+```bash
+cp .env.example .env
+docker compose up --build
+curl localhost:8000/ready
+```
+
+`/ready` should return `{"status":"ready","database":"ok"}` once Postgres is healthy.
 
 ## Live link
-<Added in Week 2>
+Live hosting is not required for this checkpoint. Run the API locally with Docker Compose.

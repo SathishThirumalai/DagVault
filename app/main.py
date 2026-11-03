@@ -2,8 +2,9 @@ from collections.abc import Iterator
 from typing import Annotated, Any
 
 import httpx
+import psycopg
 from fastapi import Depends, FastAPI, HTTPException, status
-from fastapi.responses import StreamingResponse
+from fastapi.responses import JSONResponse, StreamingResponse
 
 from app.config import Settings, get_settings
 from app.cost import get_usage_summary, record_cost
@@ -38,6 +39,22 @@ ProviderDep = Annotated[Any, Depends(get_llm_provider)]
 def health(settings: SettingsDep) -> dict:
     """Liveness: the process is up. Must be fast and must not call the LLM or the DB."""
     return {"status": "ok", "app": settings.app_name, "environment": settings.environment}
+
+
+@app.get("/ready")
+def ready(settings: SettingsDep) -> JSONResponse:
+    """Readiness: process is up, and the database is either unused or reachable."""
+    if not settings.database_url.strip():
+        return JSONResponse({"status": "ready", "database": "not configured"})
+    try:
+        with psycopg.connect(settings.database_url, connect_timeout=2) as conn:
+            conn.execute("SELECT 1")
+    except Exception as exc:
+        return JSONResponse(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            content={"status": "not ready", "database": str(exc)},
+        )
+    return JSONResponse({"status": "ready", "database": "ok"})
 
 
 @app.post("/chat")

@@ -16,6 +16,7 @@ class Settings(BaseSettings):
     price_output_per_million: float = 0.0
     llm_fallback_model: str = ""
     cost_log_path: str = "logs/cost.jsonl"
+    database_url: str = ""
 
 
 @lru_cache
