@@ -1,5 +1,7 @@
 # DagVault
+![CI](https://github.com/SathishThirumalai/DagVault/blob/main/.github/workflows/ci.yml)
 
+**Live:** https://dagvault.onrender.com/health· first request after 15 idle minutes takes about a minute (free tier)
 ## Problem
 Data engineering consultants at a Chennai consultancy maintain Apache Airflow pipelines for multiple retail and healthcare clients. Consultants switch between clients throughout the day and need answers that combine the public Apache Airflow code with each client's private DAGs and plugins. The challenge is that private code from one client must never be exposed to another client. DagVault provides searchable access to the shared Airflow code and the currently authorized client's private repositories while maintaining strict separation between clients.
 
@@ -38,4 +40,4 @@ curl localhost:8000/ready
 `/ready` should return `{"status":"ready","database":"ok"}` once Postgres is healthy.
 
 ## Live link
-Live hosting is not required for this checkpoint. Run the API locally with Docker Compose.
+ https://dagvault.onrender.com/health

@@ -32,3 +32,4 @@ No live deployment is included for this checkpoint. The API is run locally with 
 | Date | What I did today | Commit |
 |---|---|---|
 | 2026-11-03 | Docker Compose API + Postgres/pgvector, /ready, readiness tests, CI lint+tests | pending |
+| 04 Nov 2026 | CI workflow (test + docker-smoke), pre-commit hooks, deployed to Render, live link in README | pending |
