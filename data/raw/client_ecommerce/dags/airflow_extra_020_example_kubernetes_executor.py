@@ -25,7 +25,6 @@ import logging
 import os
 
 import pendulum
-
 from airflow.configuration import conf
 from airflow.example_dags.libs.helper import print_stuff
 from airflow.sdk import DAG, task

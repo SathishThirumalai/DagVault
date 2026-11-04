@@ -18,9 +18,8 @@
 
 from __future__ import annotations
 
-from pydantic import BaseModel
-
 from airflow.providers.common.compat.sdk import dag, task
+from pydantic import BaseModel
 
 
 # [START howto_decorator_llm_pipeline]

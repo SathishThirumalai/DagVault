@@ -22,7 +22,6 @@ Example Airflow DAG that shows the complex DAG structure.
 from __future__ import annotations
 
 import pendulum
-
 from airflow.providers.standard.operators.bash import BashOperator
 from airflow.sdk import DAG, chain
 

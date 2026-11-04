@@ -54,7 +54,6 @@ from __future__ import annotations
 
 # [START asset_def]
 import pendulum
-
 from airflow.providers.standard.operators.bash import BashOperator
 from airflow.sdk import DAG, Asset, AssetOrTimeSchedule, CronTriggerTimetable
 

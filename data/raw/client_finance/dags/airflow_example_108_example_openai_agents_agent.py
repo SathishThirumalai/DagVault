@@ -56,11 +56,10 @@ def example_openai_agents_agent():
     @task
     def run_openai_agent(question: str = DEFAULT_QUESTION) -> str:
         from agents import Agent, OpenAIChatCompletionsModel, Runner, set_trace_processors
-        from openai import AsyncOpenAI
-
         from airflow.providers.common.ai.tools.openai_agents import AirflowTools, AirflowTraceProcessor
         from airflow.providers.common.ai.tools.tracing import agent_framework_tracing
         from airflow.providers.common.ai.toolsets.sql import SQLToolset
+        from openai import AsyncOpenAI
 
         # Record the SDK's traces as the task's OpenTelemetry spans instead of sending them to OpenAI.
         set_trace_processors([AirflowTraceProcessor()])

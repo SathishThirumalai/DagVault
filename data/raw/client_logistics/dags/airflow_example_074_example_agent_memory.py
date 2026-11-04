@@ -28,11 +28,10 @@ import asyncio
 import os
 from dataclasses import dataclass
 
-from pydantic_ai import Agent
-
 from airflow.providers.common.ai.hooks.pydantic_ai import PydanticAIHook
 from airflow.providers.common.ai.operators.agent import AgentOperator
 from airflow.providers.common.compat.sdk import BaseHook, dag, task
+from pydantic_ai import Agent
 
 try:
     from pydantic_ai_harness import Memory

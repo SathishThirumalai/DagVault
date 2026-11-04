@@ -22,7 +22,6 @@ from __future__ import annotations
 import json
 
 import pendulum
-
 from airflow.sdk import dag, task
 
 # [END import_module]

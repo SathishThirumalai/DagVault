@@ -35,7 +35,7 @@ export class JobsService {
             }
         });
     }
-    
+
     /**
      * State
      * Update the state of a job running on the edge worker.
@@ -72,7 +72,7 @@ export class JobsService {
             }
         });
     }
-    
+
 }
 
 export class LogsService {
@@ -110,7 +110,7 @@ export class LogsService {
             }
         });
     }
-    
+
     /**
      * Push Logs
      * Push an incremental log chunk from Edge Worker to central site.
@@ -148,7 +148,7 @@ export class LogsService {
             }
         });
     }
-    
+
 }
 
 export class WorkerService {
@@ -182,7 +182,7 @@ export class WorkerService {
             }
         });
     }
-    
+
     /**
      * Set State
      * Set state of worker and returns the current assigned queues.
@@ -213,7 +213,7 @@ export class WorkerService {
             }
         });
     }
-    
+
     /**
      * Update Queues
      * @param data The data for the request.
@@ -243,7 +243,7 @@ export class WorkerService {
             }
         });
     }
-    
+
 }
 
 export class MonitorService {
@@ -259,7 +259,7 @@ export class MonitorService {
             url: '/edge_worker/v1/health'
         });
     }
-    
+
 }
 
 export class UiService {
@@ -287,7 +287,7 @@ export class UiService {
             }
         });
     }
-    
+
     /**
      * Jobs
      * Return Edge Jobs.
@@ -315,7 +315,7 @@ export class UiService {
             }
         });
     }
-    
+
     /**
      * Request Worker Maintenance
      * Put a worker into maintenance mode.
@@ -339,7 +339,7 @@ export class UiService {
             }
         });
     }
-    
+
     /**
      * Update Worker Maintenance
      * Update maintenance comments for a worker.
@@ -363,7 +363,7 @@ export class UiService {
             }
         });
     }
-    
+
     /**
      * Exit Worker Maintenance
      * Exit a worker from maintenance mode.
@@ -384,7 +384,7 @@ export class UiService {
             }
         });
     }
-    
+
     /**
      * Request Worker Shutdown
      * Request shutdown of a worker.
@@ -405,7 +405,7 @@ export class UiService {
             }
         });
     }
-    
+
     /**
      * Delete Worker
      * Delete a worker record from the system.
@@ -426,7 +426,7 @@ export class UiService {
             }
         });
     }
-    
+
     /**
      * Add Worker Queue
      * Add a queue to a worker.
@@ -449,7 +449,7 @@ export class UiService {
             }
         });
     }
-    
+
     /**
      * Remove Worker Queue
      * Remove a queue from a worker.

@@ -1,4 +1,4 @@
-// generated with @7nohe/openapi-react-query-codegen@1.6.2 
+// generated with @7nohe/openapi-react-query-codegen@1.6.2
 
 import { UseMutationOptions, UseQueryOptions, useMutation, useQuery } from "@tanstack/react-query";
 import { JobsService, LogsService, MonitorService, UiService, WorkerService } from "../requests/services.gen";

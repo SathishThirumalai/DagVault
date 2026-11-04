@@ -102,9 +102,9 @@
             <circle cx="22" cy="0" r="7" fill="#febc2e"/>
             <circle cx="44" cy="0" r="7" fill="#28c840"/>
             </g>
-        
+
     <g transform="translate(9, 41)" clip-path="url(#breeze-k8s-logs-clip-terminal)">
-    
+
     <g class="breeze-k8s-logs-matrix">
     <text class="breeze-k8s-logs-r1" x="1464" y="20" textLength="12.2" clip-path="url(#breeze-k8s-logs-line-0)">
 </text><text class="breeze-k8s-logs-r2" x="12.2" y="44.4" textLength="73.2" clip-path="url(#breeze-k8s-logs-line-1)">Usage:</text><text class="breeze-k8s-logs-r3" x="97.6" y="44.4" textLength="183" clip-path="url(#breeze-k8s-logs-line-1)">breeze&#160;k8s&#160;logs</text><text class="breeze-k8s-logs-r1" x="292.8" y="44.4" textLength="12.2" clip-path="url(#breeze-k8s-logs-line-1)">[</text><text class="breeze-k8s-logs-r4" x="305" y="44.4" textLength="85.4" clip-path="url(#breeze-k8s-logs-line-1)">OPTIONS</text><text class="breeze-k8s-logs-r1" x="390.4" y="44.4" textLength="12.2" clip-path="url(#breeze-k8s-logs-line-1)">]</text><text class="breeze-k8s-logs-r1" x="1464" y="44.4" textLength="12.2" clip-path="url(#breeze-k8s-logs-line-1)">

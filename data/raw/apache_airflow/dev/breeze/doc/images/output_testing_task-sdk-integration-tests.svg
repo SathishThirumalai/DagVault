@@ -128,9 +128,9 @@
             <circle cx="22" cy="0" r="7" fill="#febc2e"/>
             <circle cx="44" cy="0" r="7" fill="#28c840"/>
             </g>
-        
+
     <g transform="translate(9, 41)" clip-path="url(#breeze-testing-task-sdk-integration-tests-clip-terminal)">
-    
+
     <g class="breeze-testing-task-sdk-integration-tests-matrix">
     <text class="breeze-testing-task-sdk-integration-tests-r1" x="1464" y="20" textLength="12.2" clip-path="url(#breeze-testing-task-sdk-integration-tests-line-0)">
 </text><text class="breeze-testing-task-sdk-integration-tests-r2" x="12.2" y="44.4" textLength="73.2" clip-path="url(#breeze-testing-task-sdk-integration-tests-line-1)">Usage:</text><text class="breeze-testing-task-sdk-integration-tests-r3" x="97.6" y="44.4" textLength="500.2" clip-path="url(#breeze-testing-task-sdk-integration-tests-line-1)">breeze&#160;testing&#160;task-sdk-integration-tests</text><text class="breeze-testing-task-sdk-integration-tests-r1" x="610" y="44.4" textLength="12.2" clip-path="url(#breeze-testing-task-sdk-integration-tests-line-1)">[</text><text class="breeze-testing-task-sdk-integration-tests-r4" x="622.2" y="44.4" textLength="85.4" clip-path="url(#breeze-testing-task-sdk-integration-tests-line-1)">OPTIONS</text><text class="breeze-testing-task-sdk-integration-tests-r1" x="707.6" y="44.4" textLength="36.6" clip-path="url(#breeze-testing-task-sdk-integration-tests-line-1)">]&#160;[</text><text class="breeze-testing-task-sdk-integration-tests-r4" x="744.2" y="44.4" textLength="207.4" clip-path="url(#breeze-testing-task-sdk-integration-tests-line-1)">EXTRA_PYTEST_ARGS</text><text class="breeze-testing-task-sdk-integration-tests-r1" x="951.6" y="44.4" textLength="48.8" clip-path="url(#breeze-testing-task-sdk-integration-tests-line-1)">]...</text><text class="breeze-testing-task-sdk-integration-tests-r1" x="1464" y="44.4" textLength="12.2" clip-path="url(#breeze-testing-task-sdk-integration-tests-line-1)">

@@ -29,7 +29,6 @@ import time
 from pprint import pprint
 
 import pendulum
-
 from airflow.sdk import dag, task
 
 log = logging.getLogger(__name__)

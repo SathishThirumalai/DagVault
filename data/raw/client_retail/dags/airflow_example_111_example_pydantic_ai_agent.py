@@ -27,11 +27,10 @@ from __future__ import annotations
 
 import os
 
-from pydantic_ai import Agent
-
 from airflow.providers.common.ai.hooks.pydantic_ai import PydanticAIHook
 from airflow.providers.common.ai.toolsets import ObjectStorageToolset
 from airflow.providers.common.compat.sdk import dag, task
+from pydantic_ai import Agent
 
 LLM_CONN_ID = os.environ.get("LLM_CONN_ID", "pydanticai_default")
 DB_CONN_ID = os.environ.get("DB_CONN_ID", "sql_default")

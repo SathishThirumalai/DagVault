@@ -82,9 +82,9 @@
             <circle cx="22" cy="0" r="7" fill="#febc2e"/>
             <circle cx="44" cy="0" r="7" fill="#28c840"/>
             </g>
-        
+
     <g transform="translate(9, 41)" clip-path="url(#breeze-issues-clip-terminal)">
-    
+
     <g class="breeze-issues-matrix">
     <text class="breeze-issues-r1" x="1464" y="20" textLength="12.2" clip-path="url(#breeze-issues-line-0)">
 </text><text class="breeze-issues-r2" x="12.2" y="44.4" textLength="73.2" clip-path="url(#breeze-issues-line-1)">Usage:</text><text class="breeze-issues-r3" x="97.6" y="44.4" textLength="158.6" clip-path="url(#breeze-issues-line-1)">breeze&#160;issues</text><text class="breeze-issues-r1" x="268.4" y="44.4" textLength="12.2" clip-path="url(#breeze-issues-line-1)">[</text><text class="breeze-issues-r4" x="280.6" y="44.4" textLength="85.4" clip-path="url(#breeze-issues-line-1)">OPTIONS</text><text class="breeze-issues-r1" x="366" y="44.4" textLength="24.4" clip-path="url(#breeze-issues-line-1)">]&#160;</text><text class="breeze-issues-r4" x="390.4" y="44.4" textLength="85.4" clip-path="url(#breeze-issues-line-1)">COMMAND</text><text class="breeze-issues-r1" x="475.8" y="44.4" textLength="24.4" clip-path="url(#breeze-issues-line-1)">&#160;[</text><text class="breeze-issues-r4" x="500.2" y="44.4" textLength="48.8" clip-path="url(#breeze-issues-line-1)">ARGS</text><text class="breeze-issues-r1" x="549" y="44.4" textLength="48.8" clip-path="url(#breeze-issues-line-1)">]...</text><text class="breeze-issues-r1" x="1464" y="44.4" textLength="12.2" clip-path="url(#breeze-issues-line-1)">

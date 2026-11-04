@@ -101,9 +101,9 @@
             <circle cx="22" cy="0" r="7" fill="#febc2e"/>
             <circle cx="44" cy="0" r="7" fill="#28c840"/>
             </g>
-        
+
     <g transform="translate(9, 41)" clip-path="url(#breeze-release-management-prepare-mypy-distributions-clip-terminal)">
-    
+
     <g class="breeze-release-management-prepare-mypy-distributions-matrix">
     <text class="breeze-release-management-prepare-mypy-distributions-r1" x="1464" y="20" textLength="12.2" clip-path="url(#breeze-release-management-prepare-mypy-distributions-line-0)">
 </text><text class="breeze-release-management-prepare-mypy-distributions-r2" x="12.2" y="44.4" textLength="73.2" clip-path="url(#breeze-release-management-prepare-mypy-distributions-line-1)">Usage:</text><text class="breeze-release-management-prepare-mypy-distributions-r3" x="97.6" y="44.4" textLength="634.4" clip-path="url(#breeze-release-management-prepare-mypy-distributions-line-1)">breeze&#160;release-management&#160;prepare-mypy-distributions</text><text class="breeze-release-management-prepare-mypy-distributions-r1" x="744.2" y="44.4" textLength="12.2" clip-path="url(#breeze-release-management-prepare-mypy-distributions-line-1)">[</text><text class="breeze-release-management-prepare-mypy-distributions-r4" x="756.4" y="44.4" textLength="85.4" clip-path="url(#breeze-release-management-prepare-mypy-distributions-line-1)">OPTIONS</text><text class="breeze-release-management-prepare-mypy-distributions-r1" x="841.8" y="44.4" textLength="12.2" clip-path="url(#breeze-release-management-prepare-mypy-distributions-line-1)">]</text><text class="breeze-release-management-prepare-mypy-distributions-r1" x="1464" y="44.4" textLength="12.2" clip-path="url(#breeze-release-management-prepare-mypy-distributions-line-1)">

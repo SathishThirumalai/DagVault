@@ -24,7 +24,6 @@ Example usage of the TriggerDagRunOperator. This example holds 2 DAGs:
 from __future__ import annotations
 
 import pendulum
-
 from airflow.providers.standard.operators.trigger_dagrun import TriggerDagRunOperator
 from airflow.sdk import DAG
 

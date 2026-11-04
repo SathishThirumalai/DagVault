@@ -131,9 +131,9 @@
             <circle cx="22" cy="0" r="7" fill="#febc2e"/>
             <circle cx="44" cy="0" r="7" fill="#28c840"/>
             </g>
-        
+
     <g transform="translate(9, 41)" clip-path="url(#breeze-k8s-dev-clip-terminal)">
-    
+
     <g class="breeze-k8s-dev-matrix">
     <text class="breeze-k8s-dev-r1" x="1464" y="20" textLength="12.2" clip-path="url(#breeze-k8s-dev-line-0)">
 </text><text class="breeze-k8s-dev-r2" x="12.2" y="44.4" textLength="73.2" clip-path="url(#breeze-k8s-dev-line-1)">Usage:</text><text class="breeze-k8s-dev-r3" x="97.6" y="44.4" textLength="170.8" clip-path="url(#breeze-k8s-dev-line-1)">breeze&#160;k8s&#160;dev</text><text class="breeze-k8s-dev-r1" x="280.6" y="44.4" textLength="12.2" clip-path="url(#breeze-k8s-dev-line-1)">[</text><text class="breeze-k8s-dev-r4" x="292.8" y="44.4" textLength="85.4" clip-path="url(#breeze-k8s-dev-line-1)">OPTIONS</text><text class="breeze-k8s-dev-r1" x="378.2" y="44.4" textLength="36.6" clip-path="url(#breeze-k8s-dev-line-1)">]&#160;[</text><text class="breeze-k8s-dev-r4" x="414.8" y="44.4" textLength="158.6" clip-path="url(#breeze-k8s-dev-line-1)">SKAFFOLD_ARGS</text><text class="breeze-k8s-dev-r1" x="573.4" y="44.4" textLength="48.8" clip-path="url(#breeze-k8s-dev-line-1)">]...</text><text class="breeze-k8s-dev-r1" x="1464" y="44.4" textLength="12.2" clip-path="url(#breeze-k8s-dev-line-1)">

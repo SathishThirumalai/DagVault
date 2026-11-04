@@ -21,12 +21,11 @@ from __future__ import annotations
 from datetime import timedelta
 from decimal import Decimal
 
-from pydantic import BaseModel
-from pydantic_ai.usage import UsageLimits
-
 from airflow.providers.common.ai.operators.llm import LLMOperator
 from airflow.providers.common.compat.notifier import BaseNotifier
 from airflow.providers.common.compat.sdk import dag, task
+from pydantic import BaseModel
+from pydantic_ai.usage import UsageLimits
 
 
 # [START howto_operator_llm_structured_output_class]

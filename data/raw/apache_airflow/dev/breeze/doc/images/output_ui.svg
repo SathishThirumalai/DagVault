@@ -85,9 +85,9 @@
             <circle cx="22" cy="0" r="7" fill="#febc2e"/>
             <circle cx="44" cy="0" r="7" fill="#28c840"/>
             </g>
-        
+
     <g transform="translate(9, 41)" clip-path="url(#breeze-ui-clip-terminal)">
-    
+
     <g class="breeze-ui-matrix">
     <text class="breeze-ui-r1" x="1464" y="20" textLength="12.2" clip-path="url(#breeze-ui-line-0)">
 </text><text class="breeze-ui-r2" x="12.2" y="44.4" textLength="73.2" clip-path="url(#breeze-ui-line-1)">Usage:</text><text class="breeze-ui-r3" x="97.6" y="44.4" textLength="109.8" clip-path="url(#breeze-ui-line-1)">breeze&#160;ui</text><text class="breeze-ui-r1" x="219.6" y="44.4" textLength="12.2" clip-path="url(#breeze-ui-line-1)">[</text><text class="breeze-ui-r4" x="231.8" y="44.4" textLength="85.4" clip-path="url(#breeze-ui-line-1)">OPTIONS</text><text class="breeze-ui-r1" x="317.2" y="44.4" textLength="24.4" clip-path="url(#breeze-ui-line-1)">]&#160;</text><text class="breeze-ui-r4" x="341.6" y="44.4" textLength="85.4" clip-path="url(#breeze-ui-line-1)">COMMAND</text><text class="breeze-ui-r1" x="427" y="44.4" textLength="24.4" clip-path="url(#breeze-ui-line-1)">&#160;[</text><text class="breeze-ui-r4" x="451.4" y="44.4" textLength="48.8" clip-path="url(#breeze-ui-line-1)">ARGS</text><text class="breeze-ui-r1" x="500.2" y="44.4" textLength="48.8" clip-path="url(#breeze-ui-line-1)">]...</text><text class="breeze-ui-r1" x="1464" y="44.4" textLength="12.2" clip-path="url(#breeze-ui-line-1)">

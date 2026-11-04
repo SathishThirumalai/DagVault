@@ -58,12 +58,11 @@ def example_strands_durable():
 
     @task(retries=2, retry_delay=timedelta(minutes=1))
     def run_durable_strands_agent(question: str = DEFAULT_QUESTION) -> str:
-        from strands import Agent
-        from strands.models.anthropic import AnthropicModel
-
         from airflow.providers.common.ai.durable.strands import invoke_durably
         from airflow.providers.common.ai.tools.strands import AirflowTools
         from airflow.providers.common.ai.toolsets.sql import SQLToolset
+        from strands import Agent
+        from strands.models.anthropic import AnthropicModel
 
         llm = BaseHook.get_connection(LLM_CONN_ID)
         model = AnthropicModel(

@@ -24,10 +24,9 @@ composable units for thinking, web search, image generation, MCP, and more.
 
 from __future__ import annotations
 
-from pydantic_ai.capabilities import Thinking, WebSearch
-
 from airflow.providers.common.ai.operators.agent import AgentOperator
 from airflow.providers.common.compat.sdk import dag
+from pydantic_ai.capabilities import Thinking, WebSearch
 
 try:
     from airflow.providers.common.ai.toolsets.sql import SQLToolset

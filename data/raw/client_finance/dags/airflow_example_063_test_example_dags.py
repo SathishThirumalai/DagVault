@@ -18,7 +18,6 @@
 from __future__ import annotations
 
 import pytest
-
 from airflow_e2e_tests.e2e_test_utils.clients import AirflowClient
 
 DAG_IDS = [

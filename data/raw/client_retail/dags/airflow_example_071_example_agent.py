@@ -20,11 +20,10 @@ from __future__ import annotations
 
 from datetime import timedelta
 
-from pydantic import BaseModel
-
 from airflow.providers.common.ai.operators.agent import AgentOperator
 from airflow.providers.common.ai.toolsets.hook import HookToolset
 from airflow.providers.common.compat.sdk import ObjectStoragePath, dag, task
+from pydantic import BaseModel
 
 try:
     from airflow.providers.common.ai.toolsets.sql import SQLToolset

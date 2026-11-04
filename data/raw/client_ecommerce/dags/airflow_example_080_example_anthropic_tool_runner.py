@@ -53,10 +53,9 @@ def example_anthropic_tool_runner():
 
     @task
     def ask_the_warehouse(question: str = DEFAULT_QUESTION) -> str:
-        from anthropic import Anthropic
-
         from airflow.providers.common.ai.tools.anthropic import AirflowTools
         from airflow.providers.common.ai.toolsets.sql import SQLToolset
+        from anthropic import Anthropic
 
         llm = BaseHook.get_connection(LLM_CONN_ID)
         client = Anthropic(api_key=llm.password, base_url=llm.host or None)

@@ -21,16 +21,15 @@ from __future__ import annotations
 from collections.abc import Sequence
 from typing import TYPE_CHECKING, Annotated, Any
 
+from airflow.providers.common.ai.utils.toolset_base import AirflowToolset
+from airflow.providers.common.compat.sdk import dag, task
+from airflow.providers.http.hooks.http import HttpHook
 from pydantic import Field, TypeAdapter
 from pydantic_ai.exceptions import ModelRetry
 from pydantic_ai.tools import ToolDefinition
 from pydantic_ai.toolsets.abstract import ToolsetTool
 from pydantic_core import SchemaValidator
 from typing_extensions import TypedDict
-
-from airflow.providers.common.ai.utils.toolset_base import AirflowToolset
-from airflow.providers.common.compat.sdk import dag, task
-from airflow.providers.http.hooks.http import HttpHook
 
 if TYPE_CHECKING:
     from pydantic_ai import RunContext

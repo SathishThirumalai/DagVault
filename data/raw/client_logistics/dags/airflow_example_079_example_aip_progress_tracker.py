@@ -87,15 +87,14 @@ from datetime import timedelta
 from pathlib import Path
 from typing import Literal
 
-from pydantic import BaseModel
-from pydantic_ai.usage import UsageLimits
-
 from airflow.providers.common.ai.operators.agent import AgentOperator
 from airflow.providers.common.ai.operators.llm import LLMOperator
 from airflow.providers.common.ai.toolsets.skills import AgentSkillsToolset
 from airflow.providers.common.compat.sdk import dag, task
 from airflow.providers.standard.operators.hitl import ApprovalOperator
 from airflow.sdk import Param
+from pydantic import BaseModel
+from pydantic_ai.usage import UsageLimits
 
 # ---------------------------------------------------------------------------
 # Configuration

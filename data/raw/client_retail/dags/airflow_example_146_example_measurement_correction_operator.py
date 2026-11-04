@@ -30,7 +30,6 @@ documentation snippet.
 from __future__ import annotations
 
 import pendulum
-
 from airflow.providers.standard.operators.python import PythonOperator
 from airflow.sdk import DAG
 

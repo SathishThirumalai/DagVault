@@ -48,7 +48,6 @@ from __future__ import annotations
 from datetime import timedelta
 
 import pendulum
-
 from airflow.providers.standard.operators.empty import EmptyOperator
 from airflow.providers.standard.sensors.external_task import ExternalTaskMarker, ExternalTaskSensor
 from airflow.sdk import DAG

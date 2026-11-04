@@ -79,15 +79,14 @@ import urllib.request
 from datetime import timedelta
 from typing import Any
 
-from pydantic import BaseModel
-from pydantic_ai.usage import UsageLimits
-
 from airflow.providers.common.ai.operators.llamaindex_embedding import LlamaIndexEmbeddingOperator
 from airflow.providers.common.ai.operators.llamaindex_retrieval import LlamaIndexRetrievalOperator
 from airflow.providers.common.ai.operators.llm import LLMOperator
 from airflow.providers.common.compat.sdk import dag, task
 from airflow.providers.standard.operators.hitl import ApprovalOperator, HITLEntryOperator
 from airflow.sdk import Param
+from pydantic import BaseModel
+from pydantic_ai.usage import UsageLimits
 
 # ---------------------------------------------------------------------------
 # Configuration

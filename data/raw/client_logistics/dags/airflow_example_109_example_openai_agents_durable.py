@@ -58,11 +58,10 @@ def example_openai_agents_durable():
     @task(retries=2, retry_delay=timedelta(minutes=1))
     def run_durable_openai_agent(question: str = DEFAULT_QUESTION) -> str:
         from agents import Agent, OpenAIChatCompletionsModel, RunConfig
-        from openai import AsyncOpenAI
-
         from airflow.providers.common.ai.durable.openai_agents import run_durably_sync
         from airflow.providers.common.ai.tools.openai_agents import AirflowTools
         from airflow.providers.common.ai.toolsets.sql import SQLToolset
+        from openai import AsyncOpenAI
 
         llm = BaseHook.get_connection(LLM_CONN_ID)
         agent = Agent(

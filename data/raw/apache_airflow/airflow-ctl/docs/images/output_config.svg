@@ -86,9 +86,9 @@
             <circle cx="22" cy="0" r="7" fill="#febc2e"/>
             <circle cx="44" cy="0" r="7" fill="#28c840"/>
             </g>
-        
+
     <g transform="translate(9, 41)" clip-path="url(#terminal-1063955694-clip-terminal)">
-    
+
     <g class="terminal-1063955694-matrix">
     <text class="terminal-1063955694-r1" x="0" y="20" textLength="73.2" clip-path="url(#terminal-1063955694-line-0)">Usage:</text><text class="terminal-1063955694-r3" x="85.4" y="20" textLength="207.4" clip-path="url(#terminal-1063955694-line-0)">airflowctl&#160;config</text><text class="terminal-1063955694-r2" x="292.8" y="20" textLength="24.4" clip-path="url(#terminal-1063955694-line-0)">&#160;[</text><text class="terminal-1063955694-r4" x="317.2" y="20" textLength="24.4" clip-path="url(#terminal-1063955694-line-0)">-h</text><text class="terminal-1063955694-r2" x="341.6" y="20" textLength="24.4" clip-path="url(#terminal-1063955694-line-0)">]&#160;</text><text class="terminal-1063955694-r4" x="366" y="20" textLength="85.4" clip-path="url(#terminal-1063955694-line-0)">COMMAND</text><text class="terminal-1063955694-r4" x="463.6" y="20" textLength="36.6" clip-path="url(#terminal-1063955694-line-0)">...</text><text class="terminal-1063955694-r2" x="915" y="20" textLength="12.2" clip-path="url(#terminal-1063955694-line-0)">
 </text><text class="terminal-1063955694-r2" x="915" y="44.4" textLength="12.2" clip-path="url(#terminal-1063955694-line-1)">

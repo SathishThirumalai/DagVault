@@ -20,7 +20,6 @@ from __future__ import annotations
 import datetime
 
 import pendulum
-
 from airflow.providers.common.compat.sdk import TriggerRule
 from airflow.providers.standard.operators.bash import BashOperator
 from airflow.providers.standard.sensors.bash import BashSensor

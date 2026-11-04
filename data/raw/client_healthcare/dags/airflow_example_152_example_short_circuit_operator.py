@@ -26,7 +26,6 @@ their trigger rules after the direct downstream tasks are skipped.
 from __future__ import annotations
 
 import pendulum
-
 from airflow.providers.common.compat.sdk import TriggerRule
 from airflow.providers.standard.operators.empty import EmptyOperator
 from airflow.providers.standard.operators.python import ShortCircuitOperator

@@ -35,7 +35,6 @@ classic ``PythonOperator`` style on the exact same storyline.
 from __future__ import annotations
 
 import pendulum
-
 from airflow.sdk import dag, task
 
 DAG_DOC_MD = """

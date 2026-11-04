@@ -1,4 +1,4 @@
-// generated with @7nohe/openapi-react-query-codegen@1.6.2 
+// generated with @7nohe/openapi-react-query-codegen@1.6.2
 
 import { UseQueryOptions, useSuspenseQuery } from "@tanstack/react-query";
 import { LogsService, MonitorService, UiService } from "../requests/services.gen";

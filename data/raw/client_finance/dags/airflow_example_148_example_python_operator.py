@@ -40,7 +40,6 @@ import time
 from pprint import pprint
 
 import pendulum
-
 from airflow.providers.standard.operators.python import (
     ExternalPythonOperator,
     PythonOperator,

@@ -121,9 +121,8 @@ def example_llamaindex_byo_embed_model():
 
     @task
     def build_cohere_embedder():
-        from llama_index.embeddings.cohere import CohereEmbedding
-
         from airflow.providers.common.compat.sdk import BaseHook
+        from llama_index.embeddings.cohere import CohereEmbedding
 
         conn = BaseHook.get_connection("cohere_default")
         return CohereEmbedding(model_name="embed-english-v3.0", cohere_api_key=conn.password)

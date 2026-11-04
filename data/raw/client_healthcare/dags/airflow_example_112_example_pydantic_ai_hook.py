@@ -20,10 +20,9 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from pydantic import BaseModel
-
 from airflow.providers.common.ai.hooks.pydantic_ai import PydanticAIHook
 from airflow.providers.common.compat.sdk import dag, task
+from pydantic import BaseModel
 
 
 # [START howto_hook_pydantic_ai_basic]

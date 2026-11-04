@@ -30,6 +30,10 @@ import logging
 from datetime import timedelta
 from enum import Enum
 
+from airflow.providers.common.ai.hooks.pydantic_ai import PydanticAIHook
+from airflow.providers.common.ai.operators.agent import AgentOperator
+from airflow.providers.common.ai.utils.decision import ModelConfidence
+from airflow.providers.common.compat.sdk import dag
 from pydantic_ai import (
     DeferredToolRequests,
     DeferredToolResults,
@@ -42,11 +46,6 @@ from pydantic_ai import (
 from pydantic_ai.capabilities import HandleDeferredToolCalls
 from pydantic_ai.messages import ToolReturnPart, UserPromptPart
 from pydantic_ai.toolsets.function import FunctionToolset
-
-from airflow.providers.common.ai.hooks.pydantic_ai import PydanticAIHook
-from airflow.providers.common.ai.operators.agent import AgentOperator
-from airflow.providers.common.ai.utils.decision import ModelConfidence
-from airflow.providers.common.compat.sdk import dag
 
 log = logging.getLogger(__name__)
 

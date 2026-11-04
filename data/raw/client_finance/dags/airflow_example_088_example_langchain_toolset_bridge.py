@@ -59,11 +59,10 @@ def example_langchain_toolset_bridge():
 
     @task
     def run_sql_agent(question: str = DEFAULT_QUESTION) -> str:
-        from langchain.agents import create_agent
-
         from airflow.providers.common.ai.hooks.langchain import LangChainHook
         from airflow.providers.common.ai.toolsets import airflow_toolset_to_langchain_tools
         from airflow.providers.common.ai.toolsets.sql import SQLToolset
+        from langchain.agents import create_agent
 
         # Airflow's curated, read-only SQL toolset, exposed as LangChain tools.
         # The bridge carries each tool's name, description, and args schema, and

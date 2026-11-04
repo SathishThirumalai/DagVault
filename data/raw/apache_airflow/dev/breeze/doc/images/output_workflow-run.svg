@@ -88,9 +88,9 @@
             <circle cx="22" cy="0" r="7" fill="#febc2e"/>
             <circle cx="44" cy="0" r="7" fill="#28c840"/>
             </g>
-        
+
     <g transform="translate(9, 41)" clip-path="url(#breeze-workflow-run-clip-terminal)">
-    
+
     <g class="breeze-workflow-run-matrix">
     <text class="breeze-workflow-run-r1" x="1464" y="20" textLength="12.2" clip-path="url(#breeze-workflow-run-line-0)">
 </text><text class="breeze-workflow-run-r2" x="12.2" y="44.4" textLength="73.2" clip-path="url(#breeze-workflow-run-line-1)">Usage:</text><text class="breeze-workflow-run-r3" x="97.6" y="44.4" textLength="231.8" clip-path="url(#breeze-workflow-run-line-1)">breeze&#160;workflow-run</text><text class="breeze-workflow-run-r1" x="341.6" y="44.4" textLength="12.2" clip-path="url(#breeze-workflow-run-line-1)">[</text><text class="breeze-workflow-run-r4" x="353.8" y="44.4" textLength="85.4" clip-path="url(#breeze-workflow-run-line-1)">OPTIONS</text><text class="breeze-workflow-run-r1" x="439.2" y="44.4" textLength="24.4" clip-path="url(#breeze-workflow-run-line-1)">]&#160;</text><text class="breeze-workflow-run-r4" x="463.6" y="44.4" textLength="85.4" clip-path="url(#breeze-workflow-run-line-1)">COMMAND</text><text class="breeze-workflow-run-r1" x="549" y="44.4" textLength="24.4" clip-path="url(#breeze-workflow-run-line-1)">&#160;[</text><text class="breeze-workflow-run-r4" x="573.4" y="44.4" textLength="48.8" clip-path="url(#breeze-workflow-run-line-1)">ARGS</text><text class="breeze-workflow-run-r1" x="622.2" y="44.4" textLength="48.8" clip-path="url(#breeze-workflow-run-line-1)">]...</text><text class="breeze-workflow-run-r1" x="1464" y="44.4" textLength="12.2" clip-path="url(#breeze-workflow-run-line-1)">

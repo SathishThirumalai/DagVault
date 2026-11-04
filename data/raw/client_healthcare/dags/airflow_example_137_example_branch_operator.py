@@ -28,7 +28,6 @@ import tempfile
 from pathlib import Path
 
 import pendulum
-
 from airflow.providers.common.compat.sdk import TriggerRule
 from airflow.providers.standard.operators.empty import EmptyOperator
 from airflow.providers.standard.operators.python import (

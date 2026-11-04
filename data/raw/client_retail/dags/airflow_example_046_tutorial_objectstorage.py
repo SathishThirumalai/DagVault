@@ -24,7 +24,6 @@ from collections.abc import Mapping
 # [START import_module]
 import pendulum
 import requests
-
 from airflow.sdk import ObjectStoragePath, dag, task
 
 # [END import_module]

@@ -34,7 +34,6 @@ the asset alias "example-alias-no-taskflow" is now resolved to the asset "s3://b
 from __future__ import annotations
 
 import pendulum
-
 from airflow.providers.standard.operators.python import PythonOperator
 from airflow.sdk import DAG, Asset, AssetAlias
 

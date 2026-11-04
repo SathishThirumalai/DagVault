@@ -28,10 +28,9 @@ from __future__ import annotations
 import json
 from typing import Literal
 
-from pydantic import BaseModel, Field
-
 from airflow.providers.common.ai.operators.llm_batch import LLMBatchOperator
 from airflow.providers.common.compat.sdk import ObjectStoragePath, dag, task
+from pydantic import BaseModel, Field
 
 REVIEWS = [
     "Absolutely loved it, would buy again.",

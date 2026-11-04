@@ -23,7 +23,6 @@ import datetime
 from typing import TYPE_CHECKING
 
 import pendulum
-
 from airflow.providers.standard.operators.empty import EmptyOperator
 from airflow.sdk import DAG, BaseOperator, TriggerRule
 from airflow.sdk.exceptions import AirflowSkipException

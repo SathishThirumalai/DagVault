@@ -58,15 +58,14 @@ def example_adk_agent():
 
     @task
     def run_adk_agent(question: str = DEFAULT_QUESTION) -> str:
+        from airflow.providers.common.ai.tools.adk import AirflowTools
+        from airflow.providers.common.ai.tools.tracing import agent_framework_tracing
+        from airflow.providers.common.ai.toolsets.sql import SQLToolset
         from anthropic import AsyncAnthropic
         from google.adk.agents import LlmAgent
         from google.adk.models.anthropic_llm import AnthropicLlm
         from google.adk.runners import InMemoryRunner
         from google.genai import types
-
-        from airflow.providers.common.ai.tools.adk import AirflowTools
-        from airflow.providers.common.ai.tools.tracing import agent_framework_tracing
-        from airflow.providers.common.ai.toolsets.sql import SQLToolset
 
         llm = BaseHook.get_connection(LLM_CONN_ID)
         agent = LlmAgent(

@@ -447,9 +447,8 @@ def example_langchain_tool_agent():
         of tool calls depends on the complexity of the question.  All
         reasoning steps, tool calls, and observations are logged.
         """
-        from langchain.agents import create_agent
-
         from airflow.providers.common.ai.hooks.langchain import LangChainHook
+        from langchain.agents import create_agent
 
         hook = LangChainHook(
             llm_conn_id=LLM_CONN_ID,

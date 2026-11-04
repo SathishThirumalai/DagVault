@@ -18,10 +18,9 @@
 
 from __future__ import annotations
 
-from pydantic_ai.usage import UsageLimits
-
 from airflow.providers.common.ai.operators.agent import AgentOperator
 from airflow.providers.common.compat.sdk import dag
+from pydantic_ai.usage import UsageLimits
 
 try:
     from airflow.providers.common.ai.toolsets.sql import SQLToolset

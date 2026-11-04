@@ -140,9 +140,9 @@
             <circle cx="22" cy="0" r="7" fill="#febc2e"/>
             <circle cx="44" cy="0" r="7" fill="#28c840"/>
             </g>
-        
+
     <g transform="translate(9, 41)" clip-path="url(#breeze-ci-image-pull-clip-terminal)">
-    
+
     <g class="breeze-ci-image-pull-matrix">
     <text class="breeze-ci-image-pull-r1" x="1464" y="20" textLength="12.2" clip-path="url(#breeze-ci-image-pull-line-0)">
 </text><text class="breeze-ci-image-pull-r2" x="12.2" y="44.4" textLength="73.2" clip-path="url(#breeze-ci-image-pull-line-1)">Usage:</text><text class="breeze-ci-image-pull-r3" x="97.6" y="44.4" textLength="244" clip-path="url(#breeze-ci-image-pull-line-1)">breeze&#160;ci-image&#160;pull</text><text class="breeze-ci-image-pull-r1" x="353.8" y="44.4" textLength="12.2" clip-path="url(#breeze-ci-image-pull-line-1)">[</text><text class="breeze-ci-image-pull-r4" x="366" y="44.4" textLength="85.4" clip-path="url(#breeze-ci-image-pull-line-1)">OPTIONS</text><text class="breeze-ci-image-pull-r1" x="451.4" y="44.4" textLength="36.6" clip-path="url(#breeze-ci-image-pull-line-1)">]&#160;[</text><text class="breeze-ci-image-pull-r4" x="488" y="44.4" textLength="207.4" clip-path="url(#breeze-ci-image-pull-line-1)">EXTRA_PYTEST_ARGS</text><text class="breeze-ci-image-pull-r1" x="695.4" y="44.4" textLength="48.8" clip-path="url(#breeze-ci-image-pull-line-1)">]...</text><text class="breeze-ci-image-pull-r1" x="1464" y="44.4" textLength="12.2" clip-path="url(#breeze-ci-image-pull-line-1)">

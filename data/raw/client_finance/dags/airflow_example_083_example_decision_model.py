@@ -35,11 +35,10 @@ from __future__ import annotations
 
 from enum import Enum
 
-from pydantic_ai import UseEnumMemberDocstrings
-
 from airflow.providers.common.ai.hooks.pydantic_ai import PydanticAIHook
 from airflow.providers.common.ai.operators.llm_branch import LLMBranchOperator
 from airflow.providers.common.compat.sdk import dag, task
+from pydantic_ai import UseEnumMemberDocstrings
 
 # Clear-cut: the error names the missing permission, so one remediation fits and the others
 # do not. Branch options a decision model can separate are the ones to give it.

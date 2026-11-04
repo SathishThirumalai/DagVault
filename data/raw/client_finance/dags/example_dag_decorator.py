@@ -24,7 +24,6 @@ from typing import TYPE_CHECKING, Any
 
 import httpx2
 import pendulum
-
 from airflow.providers.standard.operators.bash import BashOperator
 from airflow.sdk import BaseOperator, dag, task
 

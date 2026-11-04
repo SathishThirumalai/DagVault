@@ -34,7 +34,6 @@ from __future__ import annotations
 
 # [START example_asset_alias]
 import pendulum
-
 from airflow.sdk import DAG, Asset, AssetAlias, task
 
 with DAG(

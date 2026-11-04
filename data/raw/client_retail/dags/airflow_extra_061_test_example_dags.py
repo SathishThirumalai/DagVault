@@ -24,15 +24,13 @@ from importlib import metadata as importlib_metadata
 from unittest.mock import patch
 
 import pytest
-from packaging.specifiers import SpecifierSet
-from packaging.version import Version
-
 from airflow.configuration import conf
 from airflow.dag_processing.dagbag import DagBag
 from airflow.models import Connection
 from airflow.sdk import BaseHook
 from airflow.utils import yaml
-
+from packaging.specifiers import SpecifierSet
+from packaging.version import Version
 from tests_common.test_utils.asserts import assert_queries_count
 from tests_common.test_utils.markers import skip_if_force_lowest_dependencies_marker
 from tests_common.test_utils.paths import AIRFLOW_PROVIDERS_ROOT_PATH, AIRFLOW_ROOT_PATH

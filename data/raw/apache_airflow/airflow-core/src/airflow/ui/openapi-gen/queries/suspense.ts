@@ -1,4 +1,4 @@
-// generated with @7nohe/openapi-react-query-codegen@1.6.2 
+// generated with @7nohe/openapi-react-query-codegen@1.6.2
 
 import { UseQueryOptions, useSuspenseQuery } from "@tanstack/react-query";
 import { AssetService, AssetStateStoreService, AuthLinksService, BackfillService, CalendarService, ConfigService, ConnectionService, DagBundleService, DagRunService, DagService, DagSourceService, DagStatsService, DagVersionService, DagWarningService, DashboardService, DeadlinesService, DependenciesService, EventLogService, ExperimentalService, ExtraLinksService, GanttService, GridService, ImportErrorService, JobService, LoginService, MonitorService, PartitionedDagRunService, PluginService, PoolService, ProviderService, StructureService, TaskInstanceService, TaskService, TaskStateStoreService, TeamsService, VariableService, VersionService, XcomService } from "../requests/services.gen";

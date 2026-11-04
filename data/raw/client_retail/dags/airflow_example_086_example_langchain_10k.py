@@ -108,13 +108,12 @@ import urllib.request
 from datetime import timedelta
 from typing import Any
 
-from pydantic import BaseModel
-from pydantic_ai.usage import UsageLimits
-
 from airflow.providers.common.ai.operators.llm import LLMOperator
 from airflow.providers.common.compat.sdk import dag, task
 from airflow.providers.standard.operators.hitl import ApprovalOperator, HITLEntryOperator
 from airflow.sdk import Param
+from pydantic import BaseModel
+from pydantic_ai.usage import UsageLimits
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -333,11 +332,10 @@ def example_langchain_10k_index():
     # [START 10k_langchain_index_dtm]
     @task
     def build_index(filing: dict) -> str:
+        from airflow.providers.common.ai.hooks.langchain import LangChainHook
         from langchain_community.vectorstores import FAISS
         from langchain_core.documents import Document
         from langchain_text_splitters import RecursiveCharacterTextSplitter
-
-        from airflow.providers.common.ai.hooks.langchain import LangChainHook
 
         hook = LangChainHook(llm_conn_id=LANGCHAIN_CONN_ID, embed_model=EMBEDDING_MODEL)
         embeddings = hook.get_embedding_model()
@@ -494,9 +492,8 @@ def example_langchain_10k_analysis():
     # [START 10k_langchain_dtm_retrieval]
     @task
     def retrieve(kwargs: dict) -> dict:
-        from langchain_community.vectorstores import FAISS
-
         from airflow.providers.common.ai.hooks.langchain import LangChainHook
+        from langchain_community.vectorstores import FAISS
 
         hook = LangChainHook(llm_conn_id=LANGCHAIN_CONN_ID, embed_model=EMBEDDING_MODEL)
         embeddings = hook.get_embedding_model()

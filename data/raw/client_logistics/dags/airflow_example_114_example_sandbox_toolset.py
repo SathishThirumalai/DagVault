@@ -43,12 +43,11 @@ from __future__ import annotations
 
 from datetime import UTC, datetime
 
-from pydantic import BaseModel
-
 from airflow.providers.common.ai.operators.agent import AgentOperator
 from airflow.providers.common.ai.sandbox import SandboxSpec, SbxSandboxBackend, dag_run_owner
 from airflow.providers.common.ai.toolsets import SandboxToolset
 from airflow.providers.common.compat.sdk import ObjectStoragePath, TriggerRule, dag, task
+from pydantic import BaseModel
 
 try:
     from airflow.providers.common.ai.toolsets.sql import SQLToolset
@@ -57,7 +56,6 @@ except Exception:
 
 try:
     import modal
-
     from airflow.providers.common.ai.sandbox import ModalSandboxBackend
 except Exception:
     modal = None  # type: ignore[assignment]
@@ -243,7 +241,6 @@ def example_sandbox_task_artifact():
     def convert(input_uri: str, output_uri: str) -> str:
         # Task-only dependencies stay out of the Dag-parsing process.
         import modal
-
         from airflow.providers.common.ai.sandbox import ModalSandboxBackend, SandboxSpec
 
         source = ObjectStoragePath(input_uri).read_bytes()

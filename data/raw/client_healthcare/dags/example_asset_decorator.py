@@ -17,7 +17,6 @@
 from __future__ import annotations
 
 import pendulum
-
 from airflow.sdk import Asset, asset, dag, task
 
 

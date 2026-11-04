@@ -20,10 +20,9 @@ from __future__ import annotations
 
 from datetime import timedelta
 
-from pydantic_ai.toolsets.function import FunctionToolset
-
 from airflow.providers.common.ai.operators.agent import AgentOperator
 from airflow.providers.common.compat.sdk import dag
+from pydantic_ai.toolsets.function import FunctionToolset
 
 
 # [START howto_agent_tool_approval]

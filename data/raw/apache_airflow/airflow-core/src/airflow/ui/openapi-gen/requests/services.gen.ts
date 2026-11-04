@@ -47,7 +47,7 @@ export class AssetService {
             }
         });
     }
-    
+
     /**
      * Get Asset Aliases
      * Get asset aliases.
@@ -79,7 +79,7 @@ export class AssetService {
             }
         });
     }
-    
+
     /**
      * Get Asset Alias
      * Get an asset alias.
@@ -103,7 +103,7 @@ export class AssetService {
             }
         });
     }
-    
+
     /**
      * Get Asset Events
      * Get asset events.
@@ -161,7 +161,7 @@ export class AssetService {
             }
         });
     }
-    
+
     /**
      * Create Asset Event
      * Create asset events.
@@ -184,7 +184,7 @@ export class AssetService {
             }
         });
     }
-    
+
     /**
      * Materialize Asset
      * Materialize an asset by triggering a Dag run that produces it.
@@ -213,7 +213,7 @@ export class AssetService {
             }
         });
     }
-    
+
     /**
      * Get Asset Queued Events
      * Get queued asset events for an asset.
@@ -240,7 +240,7 @@ export class AssetService {
             }
         });
     }
-    
+
     /**
      * Delete Asset Queued Events
      * Delete queued asset events for an asset.
@@ -268,7 +268,7 @@ export class AssetService {
             }
         });
     }
-    
+
     /**
      * Get Asset
      * Get an asset.
@@ -292,7 +292,7 @@ export class AssetService {
             }
         });
     }
-    
+
     /**
      * Get Dag Asset Queued Events
      * Get queued asset events for a Dag.
@@ -319,7 +319,7 @@ export class AssetService {
             }
         });
     }
-    
+
     /**
      * Delete Dag Asset Queued Events
      * @param data The data for the request.
@@ -347,7 +347,7 @@ export class AssetService {
             }
         });
     }
-    
+
     /**
      * Get Dag Asset Queued Event
      * Get a queued asset event for a Dag.
@@ -377,7 +377,7 @@ export class AssetService {
             }
         });
     }
-    
+
     /**
      * Delete Dag Asset Queued Event
      * Delete a queued asset event for a Dag.
@@ -408,7 +408,7 @@ export class AssetService {
             }
         });
     }
-    
+
     /**
      * Get Assets
      * Get assets. Like the public endpoint, but also supports sorting by group and last asset event timestamp.
@@ -461,7 +461,7 @@ export class AssetService {
             }
         });
     }
-    
+
     /**
      * Next Run Assets
      * @param data The data for the request.
@@ -482,7 +482,7 @@ export class AssetService {
             }
         });
     }
-    
+
 }
 
 export class BackfillService {
@@ -513,7 +513,7 @@ export class BackfillService {
             }
         });
     }
-    
+
     /**
      * Create Backfill
      * @param data The data for the request.
@@ -538,7 +538,7 @@ export class BackfillService {
             }
         });
     }
-    
+
     /**
      * Get Backfill
      * @param data The data for the request.
@@ -561,7 +561,7 @@ export class BackfillService {
             }
         });
     }
-    
+
     /**
      * List Backfill Dag Runs
      * List Dag runs associated with a backfill, including skipped slots.
@@ -593,7 +593,7 @@ export class BackfillService {
             }
         });
     }
-    
+
     /**
      * Pause Backfill
      * @param data The data for the request.
@@ -617,7 +617,7 @@ export class BackfillService {
             }
         });
     }
-    
+
     /**
      * Unpause Backfill
      * @param data The data for the request.
@@ -641,7 +641,7 @@ export class BackfillService {
             }
         });
     }
-    
+
     /**
      * Cancel Backfill
      * @param data The data for the request.
@@ -665,7 +665,7 @@ export class BackfillService {
             }
         });
     }
-    
+
     /**
      * Create Backfill Dry Run
      * @param data The data for the request.
@@ -690,7 +690,7 @@ export class BackfillService {
             }
         });
     }
-    
+
     /**
      * List Backfills Ui
      * @param data The data for the request.
@@ -769,7 +769,7 @@ export class BackfillService {
             }
         });
     }
-    
+
 }
 
 export class ConnectionService {
@@ -796,7 +796,7 @@ export class ConnectionService {
             }
         });
     }
-    
+
     /**
      * Get Connection
      * Get a connection entry.
@@ -820,7 +820,7 @@ export class ConnectionService {
             }
         });
     }
-    
+
     /**
      * Patch Connection
      * Update a connection entry.
@@ -852,7 +852,7 @@ export class ConnectionService {
             }
         });
     }
-    
+
     /**
      * Get Connection Test
      * Poll for the status of an enqueued connection test by its token (passed as a header).
@@ -876,7 +876,7 @@ export class ConnectionService {
             }
         });
     }
-    
+
     /**
      * Enqueue Connection Test
      * Enqueue a connection test for deferred execution on a worker; returns a polling token.
@@ -899,7 +899,7 @@ export class ConnectionService {
             }
         });
     }
-    
+
     /**
      * Get Connections
      * Get all connection entries.
@@ -931,7 +931,7 @@ export class ConnectionService {
             }
         });
     }
-    
+
     /**
      * Post Connection
      * Create connection entry.
@@ -954,7 +954,7 @@ export class ConnectionService {
             }
         });
     }
-    
+
     /**
      * Bulk Connections
      * Bulk create, update, and delete connections.
@@ -976,7 +976,7 @@ export class ConnectionService {
             }
         });
     }
-    
+
     /**
      * Test Connection
      * Test an API connection.
@@ -1003,7 +1003,7 @@ export class ConnectionService {
             }
         });
     }
-    
+
     /**
      * Create Default Connections
      * Create default connections.
@@ -1020,7 +1020,7 @@ export class ConnectionService {
             }
         });
     }
-    
+
     /**
      * Hook Meta Data
      * Retrieve information about available connection types (hook classes) and their parameters.
@@ -1033,7 +1033,7 @@ export class ConnectionService {
             url: '/ui/connections/hook_meta'
         });
     }
-    
+
 }
 
 export class DagRunService {
@@ -1061,7 +1061,7 @@ export class DagRunService {
             }
         });
     }
-    
+
     /**
      * Delete Dag Run
      * Delete a Dag Run entry.
@@ -1089,7 +1089,7 @@ export class DagRunService {
             }
         });
     }
-    
+
     /**
      * Patch Dag Run
      * Modify a Dag Run.
@@ -1123,7 +1123,7 @@ export class DagRunService {
             }
         });
     }
-    
+
     /**
      * Bulk Dag Runs
      * Bulk update or delete Dag Runs.
@@ -1149,7 +1149,7 @@ export class DagRunService {
             }
         });
     }
-    
+
     /**
      * Get Dag Runs
      * Get all Dag Runs.
@@ -1282,7 +1282,7 @@ export class DagRunService {
             }
         });
     }
-    
+
     /**
      * Trigger Dag Run
      * Trigger a Dag.
@@ -1311,7 +1311,7 @@ export class DagRunService {
             }
         });
     }
-    
+
     /**
      * Get Upstream Asset Events
      * If dag run is asset-triggered, return the asset events that triggered it.
@@ -1337,7 +1337,7 @@ export class DagRunService {
             }
         });
     }
-    
+
     /**
      * Clear Dag Run
      * @param data The data for the request.
@@ -1365,7 +1365,7 @@ export class DagRunService {
             }
         });
     }
-    
+
     /**
      * Experimental: Wait for a dag run to complete, and return task results if requested.
      * 🚧 This is an experimental endpoint and may change or be removed without notice.Successful response are streamed as newline-delimited JSON (NDJSON). Each line is a JSON object representing the Dag run state.
@@ -1398,7 +1398,7 @@ export class DagRunService {
             }
         });
     }
-    
+
     /**
      * Get List Dag Runs Batch
      * Get a list of Dag Runs.
@@ -1425,7 +1425,7 @@ export class DagRunService {
             }
         });
     }
-    
+
     /**
      * Clear Dag Runs
      * Clear multiple Dag Runs in a single request.
@@ -1453,7 +1453,7 @@ export class DagRunService {
             }
         });
     }
-    
+
     /**
      * Clear Dag Run Partitions
      * Reset partition_key and partition_date fields on matching Dag Runs.
@@ -1481,7 +1481,7 @@ export class DagRunService {
             }
         });
     }
-    
+
     /**
      * Get Dag Run Stats
      * Get duration statistics for a DAG based on its historical completed runs.
@@ -1505,7 +1505,7 @@ export class DagRunService {
             }
         });
     }
-    
+
     /**
      * Get Execution
      * List a Dag run's live task instances with the region structure that locates them.
@@ -1547,7 +1547,7 @@ export class DagRunService {
             }
         });
     }
-    
+
 }
 
 export class ExperimentalService {
@@ -1583,7 +1583,7 @@ export class ExperimentalService {
             }
         });
     }
-    
+
     /**
      * Experimental: Compare what two stored versions of a Dag currently hold.
      * 🚧 This is an experimental endpoint and may change or be removed without notice.
@@ -1618,7 +1618,7 @@ export class ExperimentalService {
             }
         });
     }
-    
+
 }
 
 export class DagSourceService {
@@ -1655,7 +1655,7 @@ export class DagSourceService {
             }
         });
     }
-    
+
 }
 
 export class DagBundleService {
@@ -1694,7 +1694,7 @@ export class DagBundleService {
             }
         });
     }
-    
+
     /**
      * Get Dag Bundle
      * Get a Dag bundle.
@@ -1718,7 +1718,7 @@ export class DagBundleService {
             }
         });
     }
-    
+
     /**
      * Get Dag Bundle Files
      * List the files in a Dag bundle, ordered by path.
@@ -1762,7 +1762,7 @@ export class DagBundleService {
             }
         });
     }
-    
+
 }
 
 export class DagStatsService {
@@ -1790,7 +1790,7 @@ export class DagStatsService {
             }
         });
     }
-    
+
 }
 
 export class ConfigService {
@@ -1821,7 +1821,7 @@ export class ConfigService {
             }
         });
     }
-    
+
     /**
      * Get Config Value
      * @param data The data for the request.
@@ -1851,7 +1851,7 @@ export class ConfigService {
             }
         });
     }
-    
+
     /**
      * Get Configs
      * Get configs for UI.
@@ -1867,7 +1867,7 @@ export class ConfigService {
             }
         });
     }
-    
+
 }
 
 export class DagWarningService {
@@ -1901,7 +1901,7 @@ export class DagWarningService {
             }
         });
     }
-    
+
 }
 
 export class DagService {
@@ -1985,7 +1985,7 @@ export class DagService {
             }
         });
     }
-    
+
     /**
      * Patch Dags
      * Patch multiple Dags.
@@ -2035,7 +2035,7 @@ export class DagService {
             }
         });
     }
-    
+
     /**
      * Get Dag
      * Get basic information about a Dag.
@@ -2060,7 +2060,7 @@ export class DagService {
             }
         });
     }
-    
+
     /**
      * Patch Dag
      * Patch the specific Dag.
@@ -2092,7 +2092,7 @@ export class DagService {
             }
         });
     }
-    
+
     /**
      * Delete Dag
      * Delete the specific Dag.
@@ -2118,7 +2118,7 @@ export class DagService {
             }
         });
     }
-    
+
     /**
      * Get Dag Details
      * Get details of Dag.
@@ -2143,7 +2143,7 @@ export class DagService {
             }
         });
     }
-    
+
     /**
      * Bulk Dags
      * Bulk pause, resume, or drain Dags by id.
@@ -2165,7 +2165,7 @@ export class DagService {
             }
         });
     }
-    
+
     /**
      * Favorite Dag
      * Mark the Dag as favorite.
@@ -2190,7 +2190,7 @@ export class DagService {
             }
         });
     }
-    
+
     /**
      * Unfavorite Dag
      * Unmark the Dag as favorite.
@@ -2215,7 +2215,7 @@ export class DagService {
             }
         });
     }
-    
+
     /**
      * Get Dag Tags
      * Get all Dag tags.
@@ -2246,7 +2246,7 @@ export class DagService {
             }
         });
     }
-    
+
     /**
      * Get Dags
      * Get Dags with recent DagRun.
@@ -2321,7 +2321,7 @@ export class DagService {
             }
         });
     }
-    
+
     /**
      * Get Dag Timetable Types
      * Get timetable types used by readable Dags.
@@ -2346,7 +2346,7 @@ export class DagService {
             }
         });
     }
-    
+
     /**
      * Get Dag Folders
      * Get the distinct folders the readable Dags live in, scoped to their bundle.
@@ -2371,7 +2371,7 @@ export class DagService {
             url: '/ui/dags/folders'
         });
     }
-    
+
     /**
      * Get Latest Run Info
      * Get latest run.
@@ -2394,7 +2394,7 @@ export class DagService {
             }
         });
     }
-    
+
     /**
      * Get Dag Run State Counts
      * Return per-Dag DagRun state counts (zero-filled) for the Dag list page.
@@ -2415,7 +2415,7 @@ export class DagService {
             }
         });
     }
-    
+
     /**
      * Get Recent Task Instance State Counts
      * Return recent task-instance state counts for the Dags of the given runs, for the Dag list page.
@@ -2444,7 +2444,7 @@ export class DagService {
             }
         });
     }
-    
+
 }
 
 export class EventLogService {
@@ -2470,7 +2470,7 @@ export class EventLogService {
             }
         });
     }
-    
+
     /**
      * Get Event Logs
      * Get all Event Logs.
@@ -2552,7 +2552,7 @@ export class EventLogService {
             }
         });
     }
-    
+
 }
 
 export class ExtraLinksService {
@@ -2595,7 +2595,7 @@ export class ExtraLinksService {
             }
         });
     }
-    
+
 }
 
 export class TaskInstanceService {
@@ -2638,7 +2638,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Get Task Instance
      * Get task instance.
@@ -2674,7 +2674,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Patch Task Instance
      * Update a task instance.
@@ -2717,7 +2717,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Delete Task Instance
      * Delete a task instance.
@@ -2755,7 +2755,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Get Mapped Task Instances
      * Get list of mapped task instances.
@@ -2876,7 +2876,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Get Task Instance Dependencies
      * Get dependencies blocking task from getting scheduled.
@@ -2914,7 +2914,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Get Task Instance Dependencies
      * Get dependencies blocking task from getting scheduled.
@@ -2952,7 +2952,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Get Task Instance Tries
      * Get list of task instances history.
@@ -2992,7 +2992,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Get Mapped Task Instance Tries
      * Get list of task instances history for a mapped task instance.
@@ -3032,7 +3032,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Get Mapped Task Instance
      * Get task instance.
@@ -3070,7 +3070,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Patch Task Instance
      * Update a task instance.
@@ -3113,7 +3113,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Get Task Instances
      * Get list of task instances.
@@ -3269,7 +3269,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Bulk Task Instances
      * Bulk update, and delete task instances.
@@ -3297,7 +3297,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Get Task Instances Batch
      * Get list of task instances.
@@ -3326,7 +3326,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Get Task Instance Try Details
      * Get task instance details by try number.
@@ -3366,7 +3366,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Get Mapped Task Instance Try Details
      * @param data The data for the request.
@@ -3405,7 +3405,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Post Clear Task Instances
      * Clear task instances.
@@ -3434,7 +3434,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Patch Task Group Instances
      * Update the state of all task instances in a task group.
@@ -3475,7 +3475,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Patch Task Group Instances Dry Run
      * Dry-run of updating the state of all task instances in a task group.
@@ -3514,7 +3514,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Patch Task Instance Dry Run
      * Update a task instance dry_run mode.
@@ -3557,7 +3557,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Patch Task Instance Dry Run
      * Update a task instance dry_run mode.
@@ -3600,7 +3600,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Get Log
      * Get logs for a specific task instance.
@@ -3648,7 +3648,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Get External Log Url
      * Get external log URL for a specific task instance.
@@ -3688,7 +3688,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Update Hitl Detail
      * Update a Human-in-the-loop detail.
@@ -3729,7 +3729,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Get Hitl Detail
      * Get a Human-in-the-loop detail of a specific task instance.
@@ -3767,7 +3767,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Get Hitl Detail Try Detail
      * Get a Human-in-the-loop detail of a specific task instance.
@@ -3807,7 +3807,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
     /**
      * Get Hitl Details
      * Get Human-in-the-loop details.
@@ -3879,7 +3879,7 @@ export class TaskInstanceService {
             }
         });
     }
-    
+
 }
 
 export class ImportErrorService {
@@ -3906,7 +3906,7 @@ export class ImportErrorService {
             }
         });
     }
-    
+
     /**
      * Get Import Errors
      * Get all import errors.
@@ -3941,7 +3941,7 @@ export class ImportErrorService {
             }
         });
     }
-    
+
 }
 
 export class JobService {
@@ -4002,7 +4002,7 @@ export class JobService {
             }
         });
     }
-    
+
 }
 
 export class PluginService {
@@ -4029,7 +4029,7 @@ export class PluginService {
             }
         });
     }
-    
+
     /**
      * Import Errors
      * @returns PluginImportErrorCollectionResponse Successful Response
@@ -4045,7 +4045,7 @@ export class PluginService {
             }
         });
     }
-    
+
 }
 
 export class PoolService {
@@ -4073,7 +4073,7 @@ export class PoolService {
             }
         });
     }
-    
+
     /**
      * Get Pool
      * Get a pool.
@@ -4097,7 +4097,7 @@ export class PoolService {
             }
         });
     }
-    
+
     /**
      * Patch Pool
      * Update a Pool.
@@ -4129,7 +4129,7 @@ export class PoolService {
             }
         });
     }
-    
+
     /**
      * Get Pools
      * Get all pools entries.
@@ -4160,7 +4160,7 @@ export class PoolService {
             }
         });
     }
-    
+
     /**
      * Post Pool
      * Create a Pool.
@@ -4183,7 +4183,7 @@ export class PoolService {
             }
         });
     }
-    
+
     /**
      * Bulk Pools
      * Bulk create, update, and delete pools.
@@ -4205,7 +4205,7 @@ export class PoolService {
             }
         });
     }
-    
+
 }
 
 export class ProviderService {
@@ -4233,7 +4233,7 @@ export class ProviderService {
             }
         });
     }
-    
+
 }
 
 export class AssetStateStoreService {
@@ -4266,7 +4266,7 @@ export class AssetStateStoreService {
             }
         });
     }
-    
+
     /**
      * Clear Asset State Store
      * Delete all state store keys for an asset.
@@ -4290,7 +4290,7 @@ export class AssetStateStoreService {
             }
         });
     }
-    
+
     /**
      * Get Asset State Store
      * Get a single asset state store entry.
@@ -4316,7 +4316,7 @@ export class AssetStateStoreService {
             }
         });
     }
-    
+
     /**
      * Set Asset State Store
      * Set an asset state store value. Creates or overwrites the key.
@@ -4345,7 +4345,7 @@ export class AssetStateStoreService {
             }
         });
     }
-    
+
     /**
      * Delete Asset State Store
      * Delete a single asset state store key. No-op if the key does not exist.
@@ -4371,7 +4371,7 @@ export class AssetStateStoreService {
             }
         });
     }
-    
+
 }
 
 export class TaskStateStoreService {
@@ -4416,7 +4416,7 @@ export class TaskStateStoreService {
             }
         });
     }
-    
+
     /**
      * Clear Task State Store
      * Delete all task state store keys for a task instance.
@@ -4459,7 +4459,7 @@ export class TaskStateStoreService {
             }
         });
     }
-    
+
     /**
      * Get Task State Store
      * Get a single task state store entry.
@@ -4499,7 +4499,7 @@ export class TaskStateStoreService {
             }
         });
     }
-    
+
     /**
      * Set Task State Store
      * Set a task state store value. Creates or overwrites the key.
@@ -4542,7 +4542,7 @@ export class TaskStateStoreService {
             }
         });
     }
-    
+
     /**
      * Patch Task State Store
      * Update the value of an existing task state store key.
@@ -4585,7 +4585,7 @@ export class TaskStateStoreService {
             }
         });
     }
-    
+
     /**
      * Delete Task State Store
      * Delete a single task state store key. No-op if the key does not exist.
@@ -4625,7 +4625,7 @@ export class TaskStateStoreService {
             }
         });
     }
-    
+
 }
 
 export class XcomService {
@@ -4672,7 +4672,7 @@ export class XcomService {
             }
         });
     }
-    
+
     /**
      * Update Xcom Entry
      * Update an existing XCom entry.
@@ -4707,7 +4707,7 @@ export class XcomService {
             }
         });
     }
-    
+
     /**
      * Delete Xcom Entry
      * Delete an XCom entry.
@@ -4747,7 +4747,7 @@ export class XcomService {
             }
         });
     }
-    
+
     /**
      * Get Xcom Entries
      * Get all XCom entries.
@@ -4832,7 +4832,7 @@ export class XcomService {
             }
         });
     }
-    
+
     /**
      * Create Xcom Entry
      * Create an XCom entry.
@@ -4865,7 +4865,7 @@ export class XcomService {
             }
         });
     }
-    
+
 }
 
 export class TaskService {
@@ -4897,7 +4897,7 @@ export class TaskService {
             }
         });
     }
-    
+
     /**
      * Get Task
      * Get simplified representation of a task.
@@ -4932,7 +4932,7 @@ export class TaskService {
             }
         });
     }
-    
+
 }
 
 export class VariableService {
@@ -4959,7 +4959,7 @@ export class VariableService {
             }
         });
     }
-    
+
     /**
      * Get Variable
      * Get a variable entry.
@@ -4983,7 +4983,7 @@ export class VariableService {
             }
         });
     }
-    
+
     /**
      * Patch Variable
      * Update a variable by key.
@@ -5015,7 +5015,7 @@ export class VariableService {
             }
         });
     }
-    
+
     /**
      * Get Variables
      * Get all Variables entries.
@@ -5046,7 +5046,7 @@ export class VariableService {
             }
         });
     }
-    
+
     /**
      * Post Variable
      * Create a variable.
@@ -5070,7 +5070,7 @@ export class VariableService {
             }
         });
     }
-    
+
     /**
      * Bulk Variables
      * Bulk create, update, and delete variables.
@@ -5092,7 +5092,7 @@ export class VariableService {
             }
         });
     }
-    
+
 }
 
 export class DagParsingService {
@@ -5119,7 +5119,7 @@ export class DagParsingService {
             }
         });
     }
-    
+
 }
 
 export class DagVersionService {
@@ -5157,7 +5157,7 @@ export class DagVersionService {
             }
         });
     }
-    
+
     /**
      * Get Dag Version
      * Get one Dag Version.
@@ -5183,7 +5183,7 @@ export class DagVersionService {
             }
         });
     }
-    
+
     /**
      * Get Dag Versions
      * Get all Dag Versions.
@@ -5223,7 +5223,7 @@ export class DagVersionService {
             }
         });
     }
-    
+
 }
 
 export class MonitorService {
@@ -5238,7 +5238,7 @@ export class MonitorService {
             url: '/api/v2/monitor/health'
         });
     }
-    
+
 }
 
 export class VersionService {
@@ -5254,7 +5254,7 @@ export class VersionService {
             url: '/api/v2/version'
         });
     }
-    
+
 }
 
 export class LoginService {
@@ -5280,7 +5280,7 @@ export class LoginService {
             }
         });
     }
-    
+
     /**
      * Logout
      * Logout the user.
@@ -5296,7 +5296,7 @@ export class LoginService {
             }
         });
     }
-    
+
 }
 
 export class AuthLinksService {
@@ -5311,7 +5311,7 @@ export class AuthLinksService {
             url: '/ui/auth/menus'
         });
     }
-    
+
     /**
      * Get Current User Info
      * Convienently get the current authenticated user information.
@@ -5324,7 +5324,7 @@ export class AuthLinksService {
             url: '/ui/auth/me'
         });
     }
-    
+
     /**
      * Generate Token
      * Generate a JWT token for the authenticated user.
@@ -5344,7 +5344,7 @@ export class AuthLinksService {
             }
         });
     }
-    
+
 }
 
 export class PartitionedDagRunService {
@@ -5375,7 +5375,7 @@ export class PartitionedDagRunService {
             }
         });
     }
-    
+
     /**
      * Get Pending Partitioned Dag Run
      * Return full details for pending PartitionedDagRun.
@@ -5403,7 +5403,7 @@ export class PartitionedDagRunService {
             }
         });
     }
-    
+
 }
 
 export class DependenciesService {
@@ -5431,7 +5431,7 @@ export class DependenciesService {
             }
         });
     }
-    
+
 }
 
 export class DashboardService {
@@ -5458,7 +5458,7 @@ export class DashboardService {
             }
         });
     }
-    
+
     /**
      * Dag Stats
      * Return basic Dag stats with counts of Dags in various states.
@@ -5471,7 +5471,7 @@ export class DashboardService {
             url: '/ui/dashboard/dag_stats'
         });
     }
-    
+
 }
 
 export class DeadlinesService {
@@ -5530,7 +5530,7 @@ export class DeadlinesService {
             }
         });
     }
-    
+
     /**
      * Get Dag Deadline Alerts
      * Get all deadline alerts defined on a Dag.
@@ -5562,7 +5562,7 @@ export class DeadlinesService {
             }
         });
     }
-    
+
     /**
      * Get Callback Logs
      * Get the execution logs of a deadline callback.
@@ -5593,7 +5593,7 @@ export class DeadlinesService {
             }
         });
     }
-    
+
 }
 
 export class StructureService {
@@ -5628,7 +5628,7 @@ export class StructureService {
             }
         });
     }
-    
+
 }
 
 export class GridService {
@@ -5690,7 +5690,7 @@ export class GridService {
             }
         });
     }
-    
+
     /**
      * Get Grid Runs
      * Get info about a run for the grid.
@@ -5741,7 +5741,7 @@ export class GridService {
             }
         });
     }
-    
+
     /**
      * Get Grid Ti Summaries Stream
      * Stream TI summaries for multiple Dag runs as NDJSON (one JSON line per run).
@@ -5776,7 +5776,7 @@ export class GridService {
             }
         });
     }
-    
+
     /**
      * Get Loop Summary
      * Summarize one loop invocation from the run's live task instances.
@@ -5806,7 +5806,7 @@ export class GridService {
             }
         });
     }
-    
+
     /**
      * Get Loop History
      * Show loop invocations from recent runs, oldest first.
@@ -5834,7 +5834,7 @@ export class GridService {
             }
         });
     }
-    
+
 }
 
 export class GanttService {
@@ -5879,7 +5879,7 @@ export class GanttService {
             }
         });
     }
-    
+
 }
 
 export class CalendarService {
@@ -5924,7 +5924,7 @@ export class CalendarService {
             }
         });
     }
-    
+
     /**
      * Get Calendar Deadlines
      * Get aggregated deadline counts for a Dag, bucketed by deadline_time and missed status.
@@ -5957,7 +5957,7 @@ export class CalendarService {
             }
         });
     }
-    
+
 }
 
 export class TeamsService {
@@ -5985,5 +5985,5 @@ export class TeamsService {
             }
         });
     }
-    
+
 }

@@ -25,7 +25,6 @@ of the week. It shows both a single-day branch and a weekend branch using the We
 from __future__ import annotations
 
 import pendulum
-
 from airflow.providers.standard.operators.empty import EmptyOperator
 from airflow.providers.standard.operators.weekday import BranchDayOfWeekOperator
 from airflow.providers.standard.utils.weekday import WeekDay

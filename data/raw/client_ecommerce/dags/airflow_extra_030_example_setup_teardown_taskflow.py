@@ -21,7 +21,6 @@ from __future__ import annotations
 
 # [START example_setup_teardown_taskflow]
 import pendulum
-
 from airflow.sdk import DAG, setup, task, task_group, teardown
 
 with DAG(

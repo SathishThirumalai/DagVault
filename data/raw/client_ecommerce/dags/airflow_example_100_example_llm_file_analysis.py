@@ -18,10 +18,9 @@
 
 from __future__ import annotations
 
-from pydantic import BaseModel
-
 from airflow.providers.common.ai.operators.llm_file_analysis import LLMFileAnalysisOperator
 from airflow.providers.common.compat.sdk import dag, task
+from pydantic import BaseModel
 
 
 # [START howto_operator_llm_file_analysis_structured_output_class]

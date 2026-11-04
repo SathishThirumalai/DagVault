@@ -24,7 +24,6 @@ from __future__ import annotations
 import datetime
 
 import pendulum
-
 from airflow.providers.standard.operators.empty import EmptyOperator
 from airflow.providers.standard.sensors.time_delta import TimeDeltaSensor
 from airflow.sdk import DAG

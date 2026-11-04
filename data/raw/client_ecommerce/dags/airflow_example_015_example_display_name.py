@@ -18,7 +18,6 @@
 from __future__ import annotations
 
 import pendulum
-
 from airflow.providers.standard.operators.empty import EmptyOperator
 from airflow.sdk import dag, task
 

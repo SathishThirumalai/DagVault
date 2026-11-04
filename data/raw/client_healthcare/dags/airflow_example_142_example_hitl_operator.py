@@ -21,7 +21,6 @@ import datetime
 from typing import TYPE_CHECKING
 
 import pendulum
-
 from airflow.providers.standard.operators.hitl import (
     ApprovalOperator,
     HITLBranchOperator,

@@ -20,7 +20,6 @@ from __future__ import annotations
 import json
 
 import pendulum
-
 from airflow.providers.common.compat.sdk import TriggerRule
 from airflow.providers.standard.operators.empty import EmptyOperator
 from airflow.providers.standard.utils.weekday import WeekDay

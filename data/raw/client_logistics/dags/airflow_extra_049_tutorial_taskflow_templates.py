@@ -20,7 +20,6 @@ from __future__ import annotations
 # [START tutorial]
 # [START import_module]
 import pendulum
-
 from airflow.sdk import dag, get_current_context, task
 
 # [END import_module]

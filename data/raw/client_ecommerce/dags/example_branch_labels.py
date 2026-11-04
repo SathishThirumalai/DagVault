@@ -22,7 +22,6 @@ Example DAG demonstrating the usage of labels with different branches.
 from __future__ import annotations
 
 import pendulum
-
 from airflow.providers.standard.operators.empty import EmptyOperator
 from airflow.sdk import DAG, Label
 

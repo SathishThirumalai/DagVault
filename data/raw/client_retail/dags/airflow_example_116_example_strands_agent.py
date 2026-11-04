@@ -55,12 +55,11 @@ def example_strands_agent():
 
     @task
     def run_strands_agent(question: str = DEFAULT_QUESTION) -> str:
-        from strands import Agent
-        from strands.models.anthropic import AnthropicModel
-
         from airflow.providers.common.ai.tools.strands import AirflowTools
         from airflow.providers.common.ai.tools.tracing import agent_framework_tracing
         from airflow.providers.common.ai.toolsets.sql import SQLToolset
+        from strands import Agent
+        from strands.models.anthropic import AnthropicModel
 
         llm = BaseHook.get_connection(LLM_CONN_ID)
         model = AnthropicModel(
