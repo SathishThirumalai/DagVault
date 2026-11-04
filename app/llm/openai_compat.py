@@ -84,9 +84,7 @@ class OpenAICompatProvider:
                 except (httpx.ConnectError, httpx.TimeoutException, httpx.NetworkError) as net_err:
                     if has_streamed:
                         # NEVER retry after text has already been sent to the client
-                        raise LLMUnavailable(
-                            f"Network error after streaming started: {net_err}"
-                        ) from net_err
+                        raise LLMUnavailable(f"Network error after streaming started: {net_err}") from net_err
                     if attempt < self.max_retries:
                         backoff = self.calculate_backoff(attempt)
                         self.sleep_fn(backoff)
@@ -111,9 +109,7 @@ class OpenAICompatProvider:
                             self.sleep_fn(backoff)
                             attempt += 1
                             continue
-                        raise LLMUnavailable(
-                            f"LLM unavailable with status {status} after {attempt} retries."
-                        )
+                        raise LLMUnavailable(f"LLM unavailable with status {status} after {attempt} retries.")
 
                     # Any other unexpected HTTP status
                     response.raise_for_status()
